@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap"
+            rel="stylesheet">
+        <link rel="shortcut icon" href="img/logo_peluditos2.png"
+            type="image/x-icon">
+        <link rel="stylesheet" href="css/registro.css">
+        <link rel="stylesheet" href="css/apoyanos.css">
+        <title>Registrate! ♥🐶🐱</title>
+    </head>
+    <body>
+        <header>
+
+        </header>
+
+        <form action="/register" method="POST" id="form">
+            <div class="form">
+                <h1>Registro</h1>
+                <p class="form_paragraph">¿Ya tienes cuenta?<a
+                        href="iniciar_sesion.html"
+                        class="form_link"> Inicia sesión</a></p>
+
+                <div class="grupo">
+                    <input type="text" name="nombre" id="name"><span
+                        class="barra" ></span>
+                    <label for="">Nombre</label>
+                    <span id="error-name" class="error"></span>
+                </div>
+
+                <div class="grupo">
+                    <input type="phone" name="celular" id="celular"><span
+                        class="barra"></span>
+                    <label for="">Celular</label>
+                    <span id="error-phone" class="error"></span>
+                </div>
+
+                <div class="grupo">
+                    <input type="text" name="direccion" id="direccion"><span
+                        class="barra"></span>
+                    <label for="">Dirección</label>
+                     <span id="error-direccion" class="error"></span>
+                </div>
+
+                <div class="grupo">
+                    <input type="email" name="email" id="email"><span
+                        class="barra"></span>
+                    <label for="">Email</label>
+                     <span id="error-email" class="error"></span>
+                </div>
+
+                <div class="grupo">
+                    <input type="password" name="contrasena" id="password"><span
+                        class="barra"></span>
+                    <label for="">Contraseña</label>
+                     <span id="error-password" class="error"></span>
+                </div>
+
+                <button type="submit">Suscribirte</button>
+
+            </div>
+        </form>
+
+        <script src="js/registro.js"></script>
+    </body>
+</html>
